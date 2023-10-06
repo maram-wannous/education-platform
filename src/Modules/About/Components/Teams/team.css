@@ -1,0 +1,57 @@
+.team-box {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    width: 325px !important;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.team-box .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.team-box .image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.team-box h3 {
+    color: var(--main-color);
+    font-size: 20px;
+}
+.team-box span {
+    color: var(--span-text-color);
+    font-size: 16px;
+}
+.team-box p {
+    color: var(--p-text-color);
+    padding: 20px 10px;
+}
+.team-box .icons {
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.team-content .slick-dots li.slick-active button:before {
+    color: var(--main-color) !important;
+}
+
+.team-content ul.slick-dots {
+    bottom: -40px;
+}

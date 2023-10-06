@@ -1,0 +1,67 @@
+
+.testi-box {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    width: 324px !important;
+    height: 350px;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.testi-box:hover {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+
+.testi-box q {
+    display: block;
+    margin-bottom: 20px;
+}
+.testi-box .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testi-box .image img {
+    width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+.testi-box h3 {
+    color: var(--main-color);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.testi-box p {
+    font-size: 14px;
+}
+
+.testi-content .slick-dots li.slick-active button:before {
+    color: var(--main-color) !important;
+}
+
+.testi-content ul.slick-dots {
+    bottom: -40px;
+}
+
+.testi-content .slick-arrow.slick-prev{
+    left: -15px;
+}
+.testi-content .slick-arrow.slick-next{
+    right: -15px;
+}
+

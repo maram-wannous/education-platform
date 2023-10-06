@@ -1,0 +1,100 @@
+
+/* news container */
+
+.container.news-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+@media(max-width: 575px) {
+    .container.news-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* news box */
+.news-box {
+    display: flex;
+    align-items: start;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 8px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.news-box:hover {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+
+
+.news-box .image {
+    height: 300px;
+}
+.news-box .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    object-position: center;
+    object-fit: cover;
+    -webkit-border-radius: 8px 0 0 8px;
+    -moz-border-radius: 8px 0 0 8px;
+    -ms-border-radius: 8px 0 0 8px;
+    -o-border-radius: 8px 0 0 8px;
+}
+@media(max-width: 767px){
+    .news-box {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+@media(max-width: 575px){
+    .news-box{
+        flex-direction: column;
+        width: 325px;
+        margin: auto;
+    }
+    .news-box .image img {
+        border-radius: 8px 8px 0 0;
+        -webkit-border-radius: 8px 8px 0 0;
+        -moz-border-radius: 8px 8px 0 0;
+        -ms-border-radius: 8px 8px 0 0;
+        -o-border-radius: 8px 8px 0 0;
+}
+}
+.news-box .text{
+    display: flex;
+    align-items: center;
+}
+
+.news-box .content {
+    padding: 20px;
+
+}
+.news-box .content .title {
+    color: var(--main-color);
+    font-size: 18px;
+}
+.news-box .content .detail {
+    margin-bottom: 10px;
+    color: var(--span-text-color);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.news-box .content .desc {
+    color: var(--p-text-color);
+    font-size: 18px;
+}
+.news-box .content a {
+    color: var(--main-color);
+    font-size: 18px;
+}

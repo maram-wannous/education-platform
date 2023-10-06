@@ -1,0 +1,54 @@
+.student-page .student-page-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--section-background);
+}
+
+.container.students-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.student-page .student-box {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.07);
+    border-radius: 6px;
+    position: relative;
+}
+
+.student-page .student-box img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    right: -10px;
+    border: 10px solid var(--section-background);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.student-page .student-box h3 {
+    margin: 0 0 10px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.student-page .student-box span {
+    display: block;
+    color: #777;
+    margin-bottom: 10px;
+}
+.student-page .student-box p.email {
+    color: var(--hero-btn-color);
+}
+.student-page .student-box p {
+    line-height: 1.5;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,129 @@
+.teacher-page .teacher-page-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--section-background);
+}
+
+.container.teachers-container {
+    display: flex;
+    align-items: start;
+    margin-top: 100px;
+}
+
+.teacher-page .track-section .track-box {
+    margin: 20px;
+    text-align: center;
+}
+
+@media(max-width: 540px) {
+    .container.teachers-container {
+        flex-direction: column;
+    }
+    .teacher-page .track-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .teacher-page .track-section .track-box {
+        margin: 10px;
+    }
+}
+
+.teacher-page .track-section .track-box:nth-child(2) {
+    background-color: #1B9C85;
+}
+.teacher-page .track-section .track-box:nth-child(3) {
+    background-color: #FF52A2;
+}
+.teacher-page .track-section .track-box:nth-child(4) {
+    background-color: #FFA41B;
+}
+.teacher-page .track-section .track-box:nth-child(5) {
+    background-color: #3C486B;
+}
+.teacher-page .track-section .track-box:nth-child(6) {
+    background-color: #F45050;
+}
+.teacher-page .track-section .track-box:nth-child(7) {
+    background-color: #525FE1;
+}
+.teacher-page .track-section .track-box:nth-child(2):hover {
+    background-color: white;
+    color: #1B9C85;
+    border-color: #1B9C85;
+}
+.teacher-page .track-section .track-box:nth-child(3):hover {
+    background-color: white;
+    color: #FF52A2;
+    border-color: #FF52A2;
+}
+.teacher-page .track-section .track-box:nth-child(4):hover {
+    background-color: white;
+    color: #FFA41B;
+    border-color: #FFA41B;
+}
+.teacher-page .track-section .track-box:nth-child(5):hover {
+    background-color: white;
+    color: #3C486B;
+    border-color: #3C486B;
+}
+.teacher-page .track-section .track-box:nth-child(6):hover {
+    background-color: white;
+    color: #F45050;
+    border-color: #F45050;
+}
+.teacher-page .track-section .track-box:nth-child(7):hover {
+    background-color: white;
+    color: #525FE1;
+    border-color: #525FE1;
+}
+
+.teacher-page .teachers-section {
+    margin: auto;
+}
+
+.teacher-page .teachers-section .team-box.teacher-box {
+    margin-bottom: 30px;
+}
+
+@media(min-width: 992px) { 
+    .teacher-page .teachers-section .team-box.teacher-box .info {
+        width: 35%;
+    }
+    .teacher-page .teachers-section .team-box.teacher-box .image {
+        width: 55%;
+    }
+}
+
+@media(min-width: 768px) {
+    .teacher-page .teachers-section .team-box.teacher-box {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+        width: 100% !important;
+    }
+    .teacher-page .teachers-section .team-box.teacher-box .info {
+        width: 55%;
+        text-align: center;
+    }
+    .teacher-page .teachers-section .team-box.teacher-box .image{
+        width: 35%;
+        height: 250px;
+        margin-bottom: 0;
+    }
+    .teacher-page .teachers-section .team-box.teacher-box .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px 0 0 5px;
+        -webkit-border-radius: 5px 0 0 5px;
+        -moz-border-radius: 5px 0 0 5px;
+        -ms-border-radius: 5px 0 0 5px;
+        -o-border-radius: 5px 0 0 5px;
+}
+}

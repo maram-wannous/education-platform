@@ -1,0 +1,19 @@
+
+/* category section */
+.gategory-section {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+
+.gategory-section p {
+    color: var(--p-text-color);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.gategory-section span {
+    color: var(--main-color);
+}
+
+
