@@ -7,7 +7,7 @@ import { routes } from './Routes/Router';
 
 const router = createBrowserRouter(routes,
   {
-    basename: '/',
+    basename: '/education-platform',
   }
   );
 
